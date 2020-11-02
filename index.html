@@ -19,7 +19,7 @@
       crossorigin="anonymous"
     ></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@200;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/styles.css" />
@@ -85,24 +85,42 @@
           </ol>
           <div class="carousel-inner">
             <div
-              class="carousel-item active"
+              class="carousel-item active img-fluid"
               style="background-image: url(./media/foto-1.jpeg)"
             >
               <img src="./media/logo.jpg" alt="logo" class="main-logo" />
             </div>
             <div
-              class="carousel-item"
+              class="carousel-item img-fluid"
               style="background-image: url(./media/foto-6.jpeg)"
             >
               <img src="./media/logo.jpg" alt="logo" class="main-logo" />
             </div>
             <div
-              class="carousel-item"
+              class="carousel-item img-fluid"
               style="background-image: url(./media/foto-9.jpeg)"
             >
               <img src="./media/logo.jpg" alt="logo" class="main-logo" />
             </div>
           </div>
+          <a
+            class="carousel-control-prev"
+            href="#myCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#myCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próxima</span>
+          </a>
         </div>
       </div>
 
@@ -133,20 +151,20 @@
         <h4>A Nossa Equipa</h4>
         <div class="row team">
           <div class="col-sm">
-            <img src="./media/foto-hugo.PNG" alt="Hugo Sousa" />
-            <p>Dept. Financeiro</p>
+            <img class="employee" src="./media/icon.jpg" alt="Hugo Sousa" />
+            <p>Diretor Geral</p>
           </div>
           <div class="col-sm">
-            <img src="./media/foto-hugo.PNG" alt="Hugo Sousa" />
-            <p>Dept. Financeiro</p>
+            <img class="employee" src="./media/icon.jpg" alt="Hugo Sousa" />
+            <p>Diretor de Operações</p>
           </div>
           <div class="col-sm">
-            <img src="./media/foto-hugo.PNG" alt="Hugo Sousa" />
-            <p>Dept. Financeiro</p>
+            <img class="employee" src="./media/icon.jpg" alt="Hugo Sousa" />
+            <p>Diretor Financeiro</p>
           </div>
           <div class="col-sm">
-            <img src="./media/foto-hugo.PNG" alt="Hugo Sousa" />
-            <p>Dept. Financeiro</p>
+            <img class="employee" src="./media/icon.jpg" alt="Hugo Sousa" />
+            <p>Diretor Comercial</p>
           </div>
         </div>
       </div>
@@ -155,47 +173,440 @@
         <h1>Áreas de Intervenção</h1>
         <div class="row">
           <div class="col-sm">
-            <h4>Edifícios Comerciais e Industriais</h4>
-            <p>
-              A empresa dispõe de um corpo técnico com vasta experiência e
-              recursos próprios, que permitem uma resposta eficiente e adequada
-              aos nossos Clientes. Acresce ainda um grupo de empresas nossas
-              parceiras de excelência que garantem o cumprimento dos princípios
-              fundamentais da SUBLIMAR em todos os projetos que realizamos.
-            </p>
-            <button class="show-btn">Ver portefólio</button>
+            <div
+              class="work-type"
+              style="background-image: url(./media/foto-2.jpeg)"
+            >
+              <h4>Edifícios Comerciais e Industriais</h4>
+              <button
+                type="button"
+                class="btn-more"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Ver imagens
+              </button>
+
+              <div
+                class="modal fade"
+                id="exampleModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div
+                        id="workCarousel1"
+                        class="carousel slide carousel-fade"
+                        data-ride="carousel"
+                      >
+                        <ol class="carousel-indicators">
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="0"
+                            class="active"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="1"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="2"
+                          ></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="./media/foto-3.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-4.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-5.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Próxima</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn-more"
+                        data-dismiss="modal"
+                      >
+                        Voltar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-sm">
-            <h4>Edifícios e Espaços Públicos</h4>
-            <p>
-              A empresa dispõe de um corpo técnico com vasta experiência e
-              recursos próprios, que permitem uma resposta eficiente e adequada
-              aos nossos Clientes. Acresce ainda um grupo de empresas nossas
-              parceiras de excelência que garantem o cumprimento dos princípios
-              fundamentais da SUBLIMAR em todos os projetos que realizamos.
-            </p>
+            <div
+              class="work-type"
+              style="background-image: url(./media/foto-8.jpeg)"
+            >
+              <h4>Edifícios e Espaços Públicos</h4>
+              <button
+                type="button"
+                class="btn-more"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Ver imagens
+              </button>
+
+              <div
+                class="modal fade"
+                id="exampleModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div
+                        id="workCarousel1"
+                        class="carousel slide carousel-fade"
+                        data-ride="carousel"
+                      >
+                        <ol class="carousel-indicators">
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="0"
+                            class="active"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="1"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="2"
+                          ></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="./media/foto-8.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-9.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-10.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Próxima</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn-more"
+                        data-dismiss="modal"
+                      >
+                        Voltar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
           <div class="col-sm">
-            <h4>Edifícios Residenciais</h4>
-            <p>
-              A empresa dispõe de um corpo técnico com vasta experiência e
-              recursos próprios, que permitem uma resposta eficiente e adequada
-              aos nossos Clientes. Acresce ainda um grupo de empresas nossas
-              parceiras de excelência que garantem o cumprimento dos princípios
-              fundamentais da SUBLIMAR em todos os projetos que realizamos.
-            </p>
+            <div
+              class="work-type"
+              style="background-image: url(./media/foto-4.jpeg)"
+            >
+              <h4>Edifícios Residenciais</h4>
+              <button
+                type="button"
+                class="btn-more"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Ver imagens
+              </button>
+
+              <div
+                class="modal fade"
+                id="exampleModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div
+                        id="workCarousel1"
+                        class="carousel slide carousel-fade"
+                        data-ride="carousel"
+                      >
+                        <ol class="carousel-indicators">
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="0"
+                            class="active"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="1"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="2"
+                          ></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="./media/foto-2.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-3.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-5.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Próxima</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn-more"
+                        data-dismiss="modal"
+                      >
+                        Voltar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-sm">
-            <h4>Reabilitação e Remodelação</h4>
-            <p>
-              A empresa dispõe de um corpo técnico com vasta experiência e
-              recursos próprios, que permitem uma resposta eficiente e adequada
-              aos nossos Clientes. Acresce ainda um grupo de empresas nossas
-              parceiras de excelência que garantem o cumprimento dos princípios
-              fundamentais da SUBLIMAR em todos os projetos que realizamos.
-            </p>
+            <div
+              class="work-type"
+              style="background-image: url(./media/foto-4.jpeg)"
+            >
+              <h4>Reabilitação e Remodelação</h4>
+              <button
+                type="button"
+                class="btn-more"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Ver imagens
+              </button>
+
+              <div
+                class="modal fade"
+                id="exampleModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div
+                        id="workCarousel1"
+                        class="carousel slide carousel-fade"
+                        data-ride="carousel"
+                      >
+                        <ol class="carousel-indicators">
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="0"
+                            class="active"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="1"
+                          ></li>
+                          <li
+                            data-target="#workCarousel1"
+                            data-slide-to="2"
+                          ></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img
+                              src="./media/foto-10.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-11.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <div class="carousel-item">
+                            <img
+                              src="./media/foto-12.jpeg"
+                              alt="logo"
+                              class="work-images"
+                            />
+                          </div>
+                          <a
+                            class="carousel-control-prev"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="prev"
+                          >
+                            <span
+                              class="carousel-control-prev-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Anterior</span>
+                          </a>
+                          <a
+                            class="carousel-control-next"
+                            href="#workCarousel1"
+                            role="button"
+                            data-slide="next"
+                          >
+                            <span
+                              class="carousel-control-next-icon"
+                              aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Próxima</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn-more"
+                        data-dismiss="modal"
+                      >
+                        Voltar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -210,9 +621,15 @@
           <div class="col-sm">
             <i class="fas fa-map-marker-alt icon"></i>
             <h4>Endereço</h4>
-            <p>Est. Vale Mourão</p>
-            <p>Rua da Bica N.º 1</p>
-            <p>2635-228 Rio de Mouro</p>
+            <a
+              href="https://goo.gl/maps/n6s4yYFqn47iHgXN6"
+              target="_blank"
+              class="contacts-link"
+            >
+              <p>Est. Vale Mourão</p>
+              <p>Rua da Bica N.º 1</p>
+              <p>2635-228 Rio de Mouro</p>
+            </a>
           </div>
           <div class="col-sm">
             <i class="fas fa-phone icon"></i>
@@ -222,7 +639,13 @@
           <div class="col-sm">
             <i class="far fa-envelope icon"></i>
             <h4>Email</h4>
-            <p>geral@aecrru.pt</p>
+            <a
+              href="mailto:geral@aecrru.pt"
+              target="_blank"
+              class="contacts-link"
+            >
+              <p>geral@aecrru.pt</p>
+            </a>
           </div>
         </div>
       </div>
