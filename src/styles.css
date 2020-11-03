@@ -165,18 +165,36 @@
 }
 
 .work h4 {
+  color: #ffffff;
   font-size: 20px;
-  padding: 60px 15px;
+  padding: 20px;
+  height: 80px;
 }
 
 .work .row {
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 
 .work .col-sm {
   padding: 0;
   margin: 0 auto;
   max-height: 270px;
+}
+
+@media (max-width: 600px) {
+  .work .col-sm {
+    padding-bottom: 350px;
+  }
+
+  .work h4 {
+    height: 50px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 915px) {
+  .work h4 {
+    height: 120px;
+  }
 }
 
 .work .work-type {
@@ -191,19 +209,25 @@
 }
 
 .work .btn-more {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-  border: 0.75px solid rgba(0, 0, 0, 0.4);
+  color: #fc4f00;
+  font-size: 25px;
+  background: none;
+  border: 2px solid #fc4f00;
   border-radius: 5px;
-  padding: 7px 10px;
+  padding: 5px 8px;
   outline: none;
-  margin-bottom: 15px;
+  position: relative;
+  top: 150px;
   transition: all 200ms ease-in-out;
 }
 
 .work .btn-more:hover {
   background-color: rgba(0, 0, 0, 0.6);
-  border-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.01);
+}
+
+.work .modal-body {
+  padding: 1px;
 }
 
 .work .modal .carousel-item {
@@ -212,7 +236,25 @@
 }
 
 .work .work-images {
+  object-fit: contain;
   border-radius: 5px;
+}
+
+.work .modal-footer {
+  padding: 0 5px;
+}
+
+.work .btn-back {
+  color: #fc4f00;
+  font-size: 25px;
+  background: none;
+  border: none;
+  outline: none;
+  transition: all 200ms ease-in-out;
+}
+
+.work .btn-back:hover {
+  color: #000000;
 }
 
 /* CONTACTS */
@@ -263,7 +305,7 @@
 
 .contacts .contacts-link:hover {
   cursor: pointer;
-  color: #09109f;
+  font-weight: 600;
 }
 
 /* FOOTER */
