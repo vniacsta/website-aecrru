@@ -125,18 +125,29 @@
   padding-bottom: 30px;
 }
 
+.about .about-txt-brand {
+  color: #fc4f00;
+  font-size: 22px;
+  text-shadow: 0.5px 0.5px 1px #fc4f00;
+}
+
 .about .about-txt {
-  font-weight: 600;
-  font-size: larger;
+  color: #fc4f00;
 }
 
 .about .col-sm p {
-  padding: 0 50px;
+  padding: 0 30px 30px 30px;
   line-height: 1.6;
   margin: 0;
   font-size: 16px;
   font-weight: 200;
   text-align: left;
+}
+
+@media (max-width: 600px) {
+  .about .col-sm p {
+    padding-bottom: 40px;
+  }
 }
 
 .about .row {
@@ -236,6 +247,7 @@
 .work .modal-dialog {
   max-width: 600px;
   max-height: 500px;
+  border-radius: 0 0 5px;
 }
 
 .work .modal-content {
@@ -247,13 +259,9 @@
 }
 
 .work .work-images {
-  max-width: 600px;
-  max-height: 500px;
   border-radius: 5px;
-}
-
-.work .carousel-control-prev-icon {
-  color: #fc4f00;
+  height: 600px;
+  object-fit: cover;
 }
 
 .work .modal-footer {
@@ -287,7 +295,7 @@
 .contacts h3 {
   font-size: 16px;
   font-weight: 200;
-  padding-bottom: 30px;
+  padding: 0 15px 30px 15px;
   line-height: 1.5;
 }
 
