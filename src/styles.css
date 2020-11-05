@@ -159,8 +159,7 @@
 }
 
 .about .team .employee {
-  width: 70px;
-  height: 70px;
+  max-width: 70px;
   border-radius: 50%;
   padding-bottom: 5px;
 }
