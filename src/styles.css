@@ -73,12 +73,12 @@
 }
 
 .home .main-logo {
-  width: 350px;
+  width: 500px;
   display: block;
   margin: 0 auto;
   transition: all 200ms ease-in-out;
-  -webkit-animation: slide-bottom 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-bottom 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-bottom 0.8s cubic-bezier(0.15, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.8s cubic-bezier(0.15, 0.46, 0.45, 0.94) both;
 }
 
 /* ----------------------------------------------
@@ -93,8 +93,8 @@
     transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(150px);
-    transform: translateY(150px);
+    -webkit-transform: translateY(90px);
+    transform: translateY(90px);
   }
 }
 @keyframes slide-bottom {
@@ -103,8 +103,8 @@
     transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(150px);
-    transform: translateY(150px);
+    -webkit-transform: translateY(90px);
+    transform: translateY(90px);
   }
 }
 
@@ -259,8 +259,8 @@
 
 .work .work-images {
   border-radius: 5px;
-  height: 600px;
-  object-fit: cover;
+  height: 500px;
+  object-fit: contain;
 }
 
 .work .modal-footer {
