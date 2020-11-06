@@ -14,9 +14,14 @@
 }
 
 @media (min-width: 1290px) and (max-width: 1680px) {
-  .home,
-  .carousel-item {
+  .home .carousel-item {
     height: 900px;
+  }
+}
+
+@media (min-width: 1681px) and (max-width: 1905px) {
+  .home .carousel-item {
+    height: 1200px;
   }
 }
 
@@ -71,8 +76,7 @@
 
 /* HOME */
 .home .carousel-item {
-  position: relative;
-  height: 700px;
+  height: 650px;
   background-position: center;
   background-size: cover;
   background-color: #000000;
