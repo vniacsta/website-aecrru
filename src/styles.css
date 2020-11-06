@@ -15,10 +15,7 @@
 
 @media (min-width: 1290px) and (max-width: 1680px) {
   .home,
-  .carousel,
-  .about,
-  .work,
-  .contacts {
+  .carousel-item {
     height: 900px;
   }
 }
