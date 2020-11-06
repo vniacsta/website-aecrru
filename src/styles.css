@@ -13,17 +13,21 @@
   width: 100%;
 }
 
-@media (min-width: 1290px) and (max-width: 1680px) {
+@media (min-width: 1280px) {
+  .home .carousel-item {
+    height: 650px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
   .home .carousel-item {
     height: 900px;
-    margin: 0 auto;
   }
 }
 
 @media (min-width: 1681px) and (max-width: 1905px) {
   .home .carousel-item {
     height: 1200px;
-    margin: 0 auto;
   }
 }
 
@@ -79,7 +83,6 @@
 /* HOME */
 .home .carousel-item {
   position: relative;
-  height: 650px;
   margin: 0 auto;
   background-position: center;
   background-size: cover;
