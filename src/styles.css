@@ -21,13 +21,13 @@
 
 @media (min-width: 1281px) and (max-width: 1680px) {
   .home .carousel-item {
-    height: 900px;
+    height: 910px;
   }
 }
 
 @media (min-width: 1681px) and (max-width: 1905px) {
   .home .carousel-item {
-    height: 1200px;
+    height: 1500px;
   }
 }
 
