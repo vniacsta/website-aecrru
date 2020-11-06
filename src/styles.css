@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 1280px) {
   .home .carousel-item {
     height: 650px;
   }
