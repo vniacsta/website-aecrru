@@ -167,10 +167,10 @@
 
 @media (min-width: 1681px) and (max-width: 1910px) {
   .home .carousel-item {
-    height: 1500px;
+    height: 1050px;
   }
   .home .main-logo {
-    width: 500px;
+    width: 480px;
   }
 }
 
@@ -379,10 +379,10 @@
 
 @media (min-width: 1681px) and (max-width: 1910px) {
   .work .modal-dialog {
-    max-height: 650px;
+    max-height: 620px;
   }
   .work .work-images {
-    height: 650px;
+    height: 620px;
   }
 }
 
