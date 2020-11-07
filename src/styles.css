@@ -67,9 +67,43 @@
 .home .carousel-item {
   margin: 0 auto;
   width: 100%;
-  height: 650px;
   background-position: left;
   background-size: cover;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home .carousel-item {
+    height: 500px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .home .carousel-item {
+    height: 570px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .home .carousel-item {
+    height: 620px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home .carousel-item {
+    height: 680px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .home .carousel-item {
+    height: 800px;
+  }
 }
 
 .home .main-logo {
@@ -256,7 +290,8 @@
   object-fit: cover;
 }
 
-@media (min-width: 320px) and (max-width: 420px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .work .modal-dialog {
     max-height: 300px;
   }
@@ -265,16 +300,8 @@
   }
 }
 
-@media (min-width: 421px) and (max-width: 520px) {
-  .work .modal-dialog {
-    max-height: 350px;
-  }
-  .work .work-images {
-    height: 350px;
-  }
-}
-
-@media (min-width: 521px) and (max-width: 780px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   .work .modal-dialog {
     max-height: 400px;
   }
@@ -283,7 +310,8 @@
   }
 }
 
-@media (min-width: 781px) and (max-width: 1000px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
   .work .modal-dialog {
     max-height: 450px;
   }
@@ -292,8 +320,8 @@
   }
 }
 
-/* MY COMPUTER */
-@media (min-width: 1001px) and (max-width: 1280px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   .work .modal-dialog {
     max-height: 500px;
   }
@@ -302,7 +330,8 @@
   }
 }
 
-@media (min-width: 1281px) and (max-width: 1680px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
   .work .modal-dialog {
     max-height: 600px;
   }
