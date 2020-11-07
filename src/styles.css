@@ -5,30 +5,13 @@
   max-width: 100%;
 }
 
+/* Common CSS for the entire webpage */
 .about,
 .work,
 .contacts,
 .footer {
   text-align: center;
   width: 100%;
-}
-
-@media (max-width: 1280px) {
-  .home .carousel-item {
-    height: 650px;
-  }
-}
-
-@media (min-width: 1281px) and (max-width: 1680px) {
-  .home .carousel-item {
-    height: 910px;
-  }
-}
-
-@media (min-width: 1681px) and (max-width: 1910px) {
-  .home .carousel-item {
-    height: 1500px;
-  }
 }
 
 .row,
@@ -91,7 +74,6 @@
 }
 
 .home .main-logo {
-  width: 500px;
   display: block;
   margin: 0 auto;
   transition: all 200ms ease-in-out;
@@ -126,17 +108,69 @@
   }
 }
 
-@media (max-width: 520px) {
+@media (min-width: 320px) and (max-width: 420px) {
+  .home .carousel-item {
+    height: 300px;
+  }
   .home .main-logo {
     padding: 0 10px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 520px) {
+  .home .carousel-item {
+    height: 350px;
+  }
+  .home .main-logo {
+    padding: 0 5px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 780px) {
+  .home .carousel-item {
+    height: 450px;
+  }
+  .home .main-logo {
+    width: 300px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1000px) {
+  .home .carousel-item {
+    height: 550px;
+  }
+  .home .main-logo {
     width: 400px;
   }
 }
 
-@media (max-width: 420px) {
+/* MY COMPUTER */
+@media (min-width: 1001px) and (max-width: 1280px) {
+  .home .carousel-item {
+    height: 650px;
+  }
   .home .main-logo {
-    padding: 0 5px;
-    width: 300px;
+    width: 450px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .home .carousel-item {
+    height: 910px;
+  }
+  .home .main-logo {
+    width: 480px;
+  }
+}
+
+@media (min-width: 1681px) and (max-width: 1910px) {
+  .home .carousel-item {
+    height: 1500px;
+  }
+  .home .main-logo {
+    width: 500px;
   }
 }
 
@@ -275,14 +309,9 @@
   border: 2px solid rgba(0, 0, 0, 0.01);
 }
 
-.work .modal-dialog {
-  max-width: 600px;
-  max-height: 500px;
-  border-radius: 0 0 5px;
-}
-
 .work .modal-content {
   background-color: #bebdbd;
+  border-radius: 0 0 5px 5px;
 }
 
 .work .modal-body {
@@ -290,9 +319,71 @@
 }
 
 .work .work-images {
-  border-radius: 5px;
-  height: 500px;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .work .modal-dialog {
+    max-height: 200px;
+  }
+  .work .work-images {
+    height: 200px;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 520px) {
+  .work .modal-dialog {
+    max-height: 250px;
+  }
+  .work .work-images {
+    height: 250px;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 780px) {
+  .work .modal-dialog {
+    max-height: 300px;
+  }
+  .work .work-images {
+    height: 300px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1000px) {
+  .work .modal-dialog {
+    max-height: 400px;
+  }
+  .work .work-images {
+    height: 400px;
+  }
+}
+
+/* MY COMPUTER */
+@media (min-width: 1001px) and (max-width: 1280px) {
+  .work .modal-dialog {
+    max-height: 500px;
+  }
+  .work .work-images {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1680px) {
+  .work .modal-dialog {
+    max-height: 600px;
+  }
+  .work .work-images {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1681px) and (max-width: 1910px) {
+  .work .modal-dialog {
+    max-height: 650px;
+  }
+  .work .work-images {
+    height: 650px;
+  }
 }
 
 .work .modal-footer {
