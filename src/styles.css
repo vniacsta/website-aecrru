@@ -110,7 +110,7 @@
 
 @media (min-width: 320px) and (max-width: 420px) {
   .home .carousel-item {
-    height: 300px;
+    height: 450px;
   }
   .home .main-logo {
     padding: 0 10px;
@@ -120,7 +120,7 @@
 
 @media (min-width: 421px) and (max-width: 520px) {
   .home .carousel-item {
-    height: 350px;
+    height: 500px;
   }
   .home .main-logo {
     padding: 0 5px;
@@ -130,16 +130,16 @@
 
 @media (min-width: 521px) and (max-width: 780px) {
   .home .carousel-item {
-    height: 450px;
+    height: 600px;
   }
   .home .main-logo {
-    width: 300px;
+    width: 340px;
   }
 }
 
 @media (min-width: 781px) and (max-width: 1000px) {
   .home .carousel-item {
-    height: 550px;
+    height: 630px;
   }
   .home .main-logo {
     width: 380px;
@@ -147,7 +147,7 @@
 }
 
 /* MY COMPUTER */
-@media (min-width: 1001px) and (max-width: 1350px) {
+@media (min-width: 1001px) and (max-width: 1360px) {
   .home .carousel-item {
     height: 650px;
   }
@@ -156,7 +156,7 @@
   }
 }
 
-@media (min-width: 1351px) and (max-width: 1680px) {
+@media (min-width: 1361px) and (max-width: 1680px) {
   .home .carousel-item {
     height: 910px;
   }
