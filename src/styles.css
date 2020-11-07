@@ -114,7 +114,7 @@
 /* Extra large devices (large laptops and desktops, 1300px and up) */
 @media only screen and (min-width: 1260px) {
   .home .carousel-item {
-    height: 650px;
+    height: 700px;
   }
   .home .main-logo {
     width: 30%;
@@ -123,7 +123,16 @@
 
 @media only screen and (min-width: 1340px) {
   .home .carousel-item {
-    height: 680px;
+    height: 850px;
+  }
+  .home .main-logo {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+  .home .carousel-item {
+    height: 1000px;
   }
   .home .main-logo {
     width: 30%;
