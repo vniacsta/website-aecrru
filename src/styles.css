@@ -142,21 +142,21 @@
     height: 550px;
   }
   .home .main-logo {
-    width: 400px;
+    width: 380px;
   }
 }
 
 /* MY COMPUTER */
-@media (min-width: 1001px) and (max-width: 1280px) {
+@media (min-width: 1001px) and (max-width: 1350px) {
   .home .carousel-item {
     height: 650px;
   }
   .home .main-logo {
-    width: 450px;
+    width: 400px;
   }
 }
 
-@media (min-width: 1281px) and (max-width: 1680px) {
+@media (min-width: 1351px) and (max-width: 1680px) {
   .home .carousel-item {
     height: 910px;
   }
