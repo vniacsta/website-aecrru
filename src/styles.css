@@ -75,6 +75,7 @@
 @media only screen and (max-width: 600px) {
   .home .carousel-item {
     height: 500px;
+    width: 50%;
   }
 }
 
@@ -82,6 +83,7 @@
 @media only screen and (min-width: 600px) {
   .home .carousel-item {
     height: 570px;
+    width: 40%;
   }
 }
 
@@ -89,6 +91,7 @@
 @media only screen and (min-width: 768px) {
   .home .carousel-item {
     height: 620px;
+    width: 35%;
   }
 }
 
@@ -96,6 +99,7 @@
 @media only screen and (min-width: 992px) {
   .home .carousel-item {
     height: 680px;
+    width: 35%;
   }
 }
 
@@ -103,11 +107,11 @@
 @media only screen and (min-width: 1300px) {
   .home .carousel-item {
     height: 1000px;
+    width: 30%;
   }
 }
 
 .home .main-logo {
-  width: 35%;
   display: block;
   margin: 0 auto;
   transition: all 200ms ease-in-out;
