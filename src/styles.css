@@ -99,10 +99,10 @@
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1300px) {
   .home .carousel-item {
-    height: 800px;
+    height: 1000px;
   }
 }
 
