@@ -165,15 +165,6 @@
   }
 }
 
-@media (min-width: 1681px) and (max-width: 1910px) {
-  .home .carousel-item {
-    height: 1050px;
-  }
-  .home .main-logo {
-    width: 480px;
-  }
-}
-
 /* ABOUT */
 .about {
   padding-bottom: 60px;
@@ -374,15 +365,6 @@
   }
   .work .work-images {
     height: 600px;
-  }
-}
-
-@media (min-width: 1681px) and (max-width: 1910px) {
-  .work .modal-dialog {
-    max-height: 620px;
-  }
-  .work .work-images {
-    height: 620px;
   }
 }
 
