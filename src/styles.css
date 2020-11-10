@@ -74,7 +74,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .home .carousel-item {
-    height: 500px;
+    height: 600px;
   }
   .home .main-logo {
     width: 50%;
@@ -84,7 +84,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .home .carousel-item {
-    height: 570px;
+    height: 615px;
   }
   .home .main-logo {
     width: 40%;
@@ -94,7 +94,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .home .carousel-item {
-    height: 620px;
+    height: 635px;
   }
   .home .main-logo {
     width: 35%;
