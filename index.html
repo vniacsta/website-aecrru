@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="AECRRU | Agostinho Emanuel Construção, Remodelação, Reabilitação, Unip. Lda."
-      content="Jovem empresa de construção. O seu parceiro na construção civil, remodelação e reabilitação."
-    />
+    <!-- compatibilities -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- title and description -->
+    <title>
+      AECRRU | Agostinho Emanuel Construção, Remodelação, Reabilitação, Unip.
+      Lda.
+    </title>
+    <meta name="description" content="Jovem empresa de construção. O seu parceiro na construção civil, remodelação e reabilitação.">
+
+    <meta name="keywords" content="construção, construção civil, remodelação, reabilitação">
+    <link rel="canonical" href="https://aecrru.pt/">
+
     <link rel="icon" href="./media/icon.png" />
+
+    <meta property="og:title" content="AECRRU | Construção, Remodelação e Reabilitação">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Necessita de uma remodelação? Contacte-nos">
+    <meta property="og:url" content="https://aecrru.pt/">
+    <meta property="og:image" content="./media/work-type-3/type3-03.jpg">
+    <meta property="og:image:alt" content="Exemplo de remodelação realizado pela AECRRU">
+
+    <!-- google analytics tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=XXX"></script>
+
+    <!-- links and scripts -->
+    <link rel="stylesheet" href="./src/styles.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Open+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/2324bc7f0f.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./src/styles.css" />
-    <title>
-      AECRRU | Agostinho Emanuel Construção, Remodelação, Reabilitação, Unip.
-      Lda.
-    </title>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="header">
+    <main class="container-fluid" style="padding: 0;">
+      <header class="header">
         <nav class="navbar fixed-top navbar-expand-lg">
-          <a class="navbar-brand" href="#home">
+          <a class="navbar-brand" data-scroll href="#home">
             <img
               src="./media/icon.png"
               height="40"
@@ -57,18 +74,18 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link link-animation" href="#home">Início</a>
+                <a class="nav-link link-animation" data-scroll href="#home">Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-animation" href="#about">Quem Somos</a>
+                <a class="nav-link link-animation" data-scroll href="#about">Quem Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-animation" href="#work"
+                <a class="nav-link link-animation" data-scroll href="#work"
                   >Áreas de Intervenção</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link link-animation" href="#contacts"
+                <a class="nav-link link-animation" data-scroll href="#contacts"
                   >Contactos</a
                 >
               </li>
@@ -91,10 +108,13 @@
             </span>
           </div>
         </nav>
-      </div>
+      </header>
 
-      <div class="home" id="home" data-aos="fade-right" data-aos-duration="100">
-        <div
+      <section class="home" id="home" data-aos="fade-right" data-aos-duration="100">
+        <h1 style="display: none;">
+          AECRRU | Agostinho Emanuel Construção, Remodelação, Reabilitação, Unip. Lda.
+        </h1>
+        <article
           id="myCarousel"
           class="carousel"
           data-ride="carousel"
@@ -166,12 +186,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Próxima</span>
           </a>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div class="about" id="about">
-        <h1 data-aos="fade-right">Quem Somos</h1>
-        <div class="row">
+      <section class="about" id="about">
+        <h2 data-aos="fade-right">Quem Somos</h2>
+        <article class="row">
           <div class="col-sm" data-aos="fade-right">
             <h4>A Nossa História</h4>
             <p>
@@ -196,32 +216,13 @@
               no trabalho que executamos.
             </p>
           </div>
-        </div>
-        <h4 data-aos="fade-right" style="display: none">A Nossa Equipa</h4>
-        <div class="row team" style="display: none">
-          <div class="col-sm" data-aos="fade-right">
-            <img class="employee" src="./media/icon.png" alt="Hugo Sousa" />
-            <p>Diretor Geral</p>
-          </div>
-          <div class="col-sm" data-aos="fade-right">
-            <img class="employee" src="./media/icon.png" alt="Hugo Sousa" />
-            <p>Diretor de Operações</p>
-          </div>
-          <div class="col-sm" data-aos="fade-right">
-            <img class="employee" src="./media/icon.png" alt="Hugo Sousa" />
-            <p>Diretor Financeiro</p>
-          </div>
-          <div class="col-sm" data-aos="fade-right">
-            <img class="employee" src="./media/icon.png" alt="Hugo Sousa" />
-            <p>Diretor Comercial</p>
-          </div>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div class="work" id="work">
-        <h1 data-aos="fade-right">Áreas de Intervenção</h1>
+      <section class="work" id="work">
+        <h2 data-aos="fade-right">Áreas de Intervenção</h2>
 
-        <div class="row">
+        <article class="row">
           <div class="col-sm">
             <h4 data-aos="fade-right">Edifícios Comerciais e Industriais</h4>
             <div
@@ -705,16 +706,16 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div class="contacts" id="contacts">
-        <h1 data-aos="fade-right">Contacte-nos</h1>
+      <section class="contacts" id="contacts">
+        <h2 data-aos="fade-right">Contacte-nos</h2>
         <h3 data-aos="fade-right">
           Estamos ao seu dispor de segunda a sexta-feira das 9h às 18h.<br />Aguardamos
           o seu contacto atráves dos meios disponibilizados.
         </h3>
-        <div class="row">
+        <article class="row">
           <div class="col-sm" data-aos="fade-right">
             <i class="fas fa-map-marker-alt icon"></i>
             <h4>Endereço</h4>
@@ -750,16 +751,17 @@
               <p>geral@aecrru.pt</p>
             </a>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
 
-      <div class="footer">
+      <footer class="footer">
         © 2020 · AECRRU | Agostinho Emanuel Construção, Remodelação,
         Reabilitação, Unip. Lda. · Designed and coded by
-        <a href="http://vniacsta.pt" target="_blank">VniaCsta</a>
-      </div>
-    </div>
+        <a href="http://vniacsta.pt" target="_blank" rel="external nofollow">VniaCsta</a>
+      </footer>
+    </main>
 
+    <!-- JS scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -773,6 +775,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
     </script>
   </body>
 </html>
