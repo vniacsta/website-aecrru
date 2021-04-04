@@ -22,13 +22,13 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="Necessita de uma remodelação? Contacte-nos">
     <meta property="og:url" content="https://aecrru.pt/">
-    <meta property="og:image" content="./media/work-type-3/type3-03.jpg">
+    <meta property="og:image" content="https://vniacsta.pt/static/media/aecrru.73644d98.png">
     <meta property="og:image:alt" content="Exemplo de remodelação realizado pela AECRRU">
 
     <!-- google analytics tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=XXX"></script>
 
-    <!-- links and scripts -->
+    <!-- css links -->
     <link rel="stylesheet" href="./src/styles.css" />
     <link
       rel="stylesheet"
@@ -36,11 +36,15 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- google fonts link -->
     <link
     href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Open+Sans&display=swap"
     rel="stylesheet"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- fontawesome script -->
     <script
       src="https://kit.fontawesome.com/2324bc7f0f.js"
       crossorigin="anonymous"
@@ -761,7 +765,7 @@
       </footer>
     </main>
 
-    <!-- JS scripts -->
+    <!-- bootstrap JS scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -772,13 +776,27 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+
+    <!-- animations script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    
+    <!-- smooth scroll js script -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    
+    <!-- google analytics script -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'XXX');
     </script>
   </body>
 </html>
