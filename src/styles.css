@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Common CSS for the entire webpage */
@@ -7,151 +7,153 @@ body {
 .work,
 .contacts,
 .footer {
-  text-align: center;
-  width: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 .row,
 .col-sm {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .row {
-  margin-right: 0;
-  margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* HEADER */
 .header .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
-  font-family: "Advent Pro", sans-serif;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "Advent Pro", sans-serif;
 }
 
 .header .nav-link {
-  color: #ffffff;
-  transition: all 200ms ease-in-out;
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
 }
 
 .header .nav-link:hover {
-  color: #bebdbd;
+    color: #bebdbd;
 }
 
 .header .fa-bars {
-  font-size: 25px;
-  color: #ffffff;
-  vertical-align: middle;
-  outline: none;
+    font-size: 25px;
+    color: #ffffff;
+    vertical-align: middle;
+    outline: none;
 }
 
 .header .social-media {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .header .fa-instagram {
-  padding: 0 40px 0 15px;
+    padding: 0 40px 0 15px;
 }
 
 .header .nav-social {
-  color: #ffffff;
-  transition: all 200ms ease-in-out;
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
 }
 
 .header .nav-social:hover {
-  color: #bebdbd;
+    color: #bebdbd;
 }
 
 /* HOME */
 .home .carousel-item {
-  margin: 0 auto;
-  width: 100%;
-  background-position: left;
-  background-size: cover;
-  transition: all 200ms ease-in-out;
-  animation: fadeIn 0.5s;
+    margin: 0 auto;
+    width: 100%;
+    background-position: left;
+    background-size: cover;
+    transition: all 200ms ease-in-out;
+    animation: fadeIn 0.5s;
 }
 @keyframes fadeIn {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .home .carousel-item {
-    height: 600px;
-  }
-  .home .main-logo {
-    width: 50%;
-  }
+    .home .carousel-item {
+        height: 600px;
+    }
+    .home .main-logo {
+        width: 50%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .home .carousel-item {
-    height: 615px;
-  }
-  .home .main-logo {
-    width: 40%;
-  }
+    .home .carousel-item {
+        height: 615px;
+    }
+    .home .main-logo {
+        width: 40%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .home .carousel-item {
-    height: 635px;
-  }
-  .home .main-logo {
-    width: 35%;
-  }
+    .home .carousel-item {
+        height: 635px;
+    }
+    .home .main-logo {
+        width: 35%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .home .carousel-item {
-    height: 650px;
-  }
-  .home .main-logo {
-    width: 35%;
-  }
+    .home .carousel-item {
+        height: 650px;
+    }
+    .home .main-logo {
+        width: 35%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1300px and up) */
 @media only screen and (min-width: 1260px) {
-  .home .carousel-item {
-    height: 700px;
-  }
-  .home .main-logo {
-    width: 30%;
-  }
+    .home .carousel-item {
+        height: 700px;
+    }
+    .home .main-logo {
+        width: 30%;
+    }
 }
 
 @media only screen and (min-width: 1340px) {
-  .home .carousel-item {
-    height: 850px;
-  }
-  .home .main-logo {
-    width: 30%;
-  }
+    .home .carousel-item {
+        height: 850px;
+    }
+    .home .main-logo {
+        width: 30%;
+    }
 }
 
 @media only screen and (min-width: 1540px) {
-  .home .carousel-item {
-    height: 1000px;
-  }
-  .home .main-logo {
-    width: 30%;
-  }
+    .home .carousel-item {
+        height: 1000px;
+    }
+    .home .main-logo {
+        width: 30%;
+    }
 }
 
 .home .main-logo {
-  display: block;
-  margin: 0 auto;
-  transition: all 200ms ease-in-out;
-  -webkit-animation: slide-bottom 1.5s cubic-bezier(0.15, 0.46, 0.45, 0.94) both;
-  animation: slide-bottom 1.5s cubic-bezier(0.15, 0.46, 0.45, 0.94) both;
+    display: block;
+    margin: 0 auto;
+    transition: all 200ms ease-in-out;
+    filter: drop-shadow(5px 5px 5px #222);
+    -webkit-animation: slide-bottom 1.5s cubic-bezier(0.15, 0.46, 0.45, 0.94)
+        both;
+    animation: slide-bottom 1.5s cubic-bezier(0.15, 0.46, 0.45, 0.94) both;
 }
 
 /* ----------------------------------------------
@@ -161,315 +163,315 @@ body {
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 @-webkit-keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(90px);
-    transform: translateY(90px);
-  }
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(90px);
+        transform: translateY(90px);
+    }
 }
 @keyframes slide-bottom {
-  0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(90px);
-    transform: translateY(90px);
-  }
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(90px);
+        transform: translateY(90px);
+    }
 }
 
 /* ABOUT */
 .about {
-  padding-bottom: 60px;
-  background-color: #ffffff;
+    padding-bottom: 60px;
+    background-color: #ffffff;
 }
 
 .about h2 {
-  font-family: "Advent Pro", sans-serif;
-  padding: 160px 0 40px 0;
+    font-family: "Advent Pro", sans-serif;
+    padding: 160px 0 40px 0;
 }
 
 .about h4 {
-  font-size: 20px;
-  text-shadow: 0.5px 0.5px 1px #bebdbd;
-  padding-bottom: 30px;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 1px #bebdbd;
+    padding-bottom: 30px;
 }
 
 .about .about-txt-brand {
-  color: #fc4f00;
-  font-size: 22px;
-  text-shadow: 0.5px 0.5px 1px #fc4f00;
+    color: #fc4f00;
+    font-size: 22px;
+    text-shadow: 0.5px 0.5px 1px #fc4f00;
 }
 
 .about .about-txt {
-  color: #fc4f00;
+    color: #fc4f00;
 }
 
 .about .col-sm p {
-  padding: 0 30px 30px 30px;
-  line-height: 1.6;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 200;
-  text-align: left;
+    padding: 0 30px 30px 30px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: left;
 }
 
 @media (max-width: 600px) {
-  .about .col-sm p {
-    padding-bottom: 40px;
-  }
+    .about .col-sm p {
+        padding-bottom: 40px;
+    }
 }
 
 .about .row {
-  padding-bottom: 50px;
-  margin: 0;
+    padding-bottom: 50px;
+    margin: 0;
 }
 
 .about .team {
-  margin: 0 90px;
+    margin: 0 90px;
 }
 
 .about .team .employee {
-  max-width: 70px;
-  border-radius: 50%;
-  padding-bottom: 5px;
+    max-width: 70px;
+    border-radius: 50%;
+    padding-bottom: 5px;
 }
 
 .about .team .col-sm p {
-  text-align: center;
+    text-align: center;
 }
 
 /* WORK */
 .work {
-  background-color: #fc4f00;
-  color: #ffffff;
-  padding-bottom: 100px;
+    background-color: #fc4f00;
+    color: #ffffff;
+    padding-bottom: 100px;
 }
 
 .work h2 {
-  font-family: "Advent Pro", sans-serif;
-  padding: 160px 0 40px 0;
+    font-family: "Advent Pro", sans-serif;
+    padding: 160px 0 40px 0;
 }
 
 .work h4 {
-  color: #ffffff;
-  font-size: 20px;
-  text-shadow: 0.5px 0.5px 1px #bebdbd;
-  padding: 20px;
-  height: 80px;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 1px #bebdbd;
+    padding: 20px;
+    height: 80px;
 }
 
 .work .row {
-  padding-bottom: 120px;
-  margin: 0;
+    padding-bottom: 120px;
+    margin: 0;
 }
 
 .work .col-sm {
-  padding: 0;
-  margin: 0 auto;
-  max-height: 270px;
+    padding: 0;
+    margin: 0 auto;
+    max-height: 270px;
 }
 
 @media (max-width: 600px) {
-  .work .col-sm {
-    padding-bottom: 350px;
-  }
+    .work .col-sm {
+        padding-bottom: 350px;
+    }
 
-  .work h4 {
-    height: 50px;
-  }
+    .work h4 {
+        height: 50px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 915px) {
-  .work h4 {
-    height: 120px;
-  }
+    .work h4 {
+        height: 120px;
+    }
 }
 
 .work .work-type {
-  background-size: cover;
-  height: 270px;
-  transition: all 200ms ease-in-out;
+    background-size: cover;
+    height: 270px;
+    transition: all 200ms ease-in-out;
 }
 
 .work .work-type:hover {
-  transform: translate(0, 10px);
-  cursor: pointer;
+    transform: translate(0, 10px);
+    cursor: pointer;
 }
 
 .work .btn-more {
-  color: #fc4f00;
-  font-size: 25px;
-  background: none;
-  border: 2px solid #fc4f00;
-  border-radius: 5px;
-  padding: 5px 8px;
-  outline: none;
-  position: relative;
-  top: 150px;
-  transition: all 200ms ease-in-out;
+    color: #fc4f00;
+    font-size: 25px;
+    background: none;
+    border: 2px solid #fc4f00;
+    border-radius: 5px;
+    padding: 5px 8px;
+    outline: none;
+    position: relative;
+    top: 150px;
+    transition: all 200ms ease-in-out;
 }
 
 .work .btn-more:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  border: 2px solid rgba(0, 0, 0, 0.01);
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.01);
 }
 
 .work .modal-content {
-  background-color: #bebdbd;
-  border-radius: 0 0 5px 5px;
+    background-color: #bebdbd;
+    border-radius: 0 0 5px 5px;
 }
 
 .work .modal-body {
-  padding: 0;
+    padding: 0;
 }
 
 .work .work-images {
-  object-fit: cover;
+    object-fit: cover;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .work .modal-dialog {
-    max-height: 300px;
-  }
-  .work .work-images {
-    height: 300px;
-  }
+    .work .modal-dialog {
+        max-height: 300px;
+    }
+    .work .work-images {
+        height: 300px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .work .modal-dialog {
-    max-height: 400px;
-  }
-  .work .work-images {
-    height: 400px;
-  }
+    .work .modal-dialog {
+        max-height: 400px;
+    }
+    .work .work-images {
+        height: 400px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .work .modal-dialog {
-    max-height: 450px;
-  }
-  .work .work-images {
-    height: 450px;
-  }
+    .work .modal-dialog {
+        max-height: 450px;
+    }
+    .work .work-images {
+        height: 450px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .work .modal-dialog {
-    max-height: 500px;
-  }
-  .work .work-images {
-    height: 500px;
-  }
+    .work .modal-dialog {
+        max-height: 500px;
+    }
+    .work .work-images {
+        height: 500px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .work .modal-dialog {
-    max-height: 600px;
-  }
-  .work .work-images {
-    height: 600px;
-  }
+    .work .modal-dialog {
+        max-height: 600px;
+    }
+    .work .work-images {
+        height: 600px;
+    }
 }
 
 .work .modal-footer {
-  padding: 0 5px;
+    padding: 0 5px;
 }
 
 .work .btn-back {
-  color: #fc4f00;
-  font-size: 35px;
-  background: none;
-  border: none;
-  outline: none;
-  transition: all 200ms ease-in-out;
+    color: #fc4f00;
+    font-size: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    transition: all 200ms ease-in-out;
 }
 
 .work .btn-back:hover {
-  color: #000000;
+    color: #000000;
 }
 
 /* CONTACTS */
 .contacts {
-  padding-bottom: 60px;
-  background-color: #ffffff;
+    padding-bottom: 60px;
+    background-color: #ffffff;
 }
 
 .contacts h2 {
-  font-family: "Advent Pro", sans-serif;
-  padding: 160px 0 40px 0;
+    font-family: "Advent Pro", sans-serif;
+    padding: 160px 0 40px 0;
 }
 
 .contacts h3 {
-  font-size: 16px;
-  font-weight: 200;
-  padding: 0 15px 30px 15px;
-  line-height: 1.5;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 0 15px 30px 15px;
+    line-height: 1.5;
 }
 
 .contacts .row {
-  margin: 0;
+    margin: 0;
 }
 
 .contacts .col-sm {
-  padding: 40px;
+    padding: 40px;
 }
 
 .contacts .icon {
-  font-size: 30px;
-  opacity: 0.8;
-  padding-bottom: 15px;
-  color: #000000;
+    font-size: 30px;
+    opacity: 0.8;
+    padding-bottom: 15px;
+    color: #000000;
 }
 
 .contacts h4 {
-  font-size: 20px;
-  text-shadow: 0.5px 0.5px 1px #bebdbd;
-  padding-bottom: 15px;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 1px #bebdbd;
+    padding-bottom: 15px;
 }
 
 .contacts p {
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
 }
 
 .contacts .contacts-link {
-  text-decoration: none;
-  color: #000000;
-  transition: all 200ms ease-in-out;
+    text-decoration: none;
+    color: #000000;
+    transition: all 200ms ease-in-out;
 }
 
 .contacts .contacts-link:hover {
-  cursor: pointer;
-  font-weight: 600;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 /* FOOTER */
 .footer {
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 12px 0;
-  color: #ffffff;
-  font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 12px 0;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 .footer a {
-  color: #ffffff;
-  opacity: 0.7;
-  text-decoration: underline;
-  transition: all 200ms ease-in-out;
+    color: #ffffff;
+    opacity: 0.7;
+    text-decoration: underline;
+    transition: all 200ms ease-in-out;
 }
 
 .footer a:hover {
-  opacity: 1;
-  font-weight: 600;
+    opacity: 1;
+    font-weight: 600;
 }
